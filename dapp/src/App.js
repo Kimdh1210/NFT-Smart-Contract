@@ -1,6 +1,8 @@
+import {Box, Button} from "@chakra-ui/react"
+
 const App = () => {
   return (
-    <div>Hello, React!</div>
+    <Box>Hello, React!<Button colorScheme="blue" ml={8}>BTN</Button></Box>
   );
 }
 
